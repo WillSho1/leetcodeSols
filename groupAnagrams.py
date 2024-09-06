@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         # n*mlogm would be sorting all words in list

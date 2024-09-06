@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
         days = [0]*len(temperatures)
